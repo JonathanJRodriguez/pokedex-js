@@ -5,13 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokedex LaunchX</title>
+    <link rel="stylesheet" href="./assets/styles/styles.css">
 </head>
 <body>
     <h1>Pokedex LaunchX</h1>
     <input type="text" placeholder="pikachu" id="pokeName" name="pokeName">
     <br>
     <br>
-    <img src="./assets/img/pokeball.png" alt="Pokemon" id="pokeImg" width="200px">
+    <div class="pokeDiv">
+        <div class="pokeSvg"></div>
+        <img class="pokeImg" src="./assets/img/pokeball.png" alt="Pokemon" id="pokeImg" width="200px">
+    </div>
     <br>
     <button onclick="fetchPokemon()">Cambiar pokemon!</button>
 </body>

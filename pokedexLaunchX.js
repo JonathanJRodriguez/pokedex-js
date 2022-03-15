@@ -11,7 +11,7 @@ const fetchPokemon = () => {
             return res.json();
         } 
     }).then((data) => {
-        let pokeImg = data.sprites.front_default;
+        let pokeImg = data.sprites.other.home.front_default;
         pokeImage(pokeImg);
     })
 }

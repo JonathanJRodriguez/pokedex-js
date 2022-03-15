@@ -1,0 +1,20 @@
+.pokeDiv{
+    display: flex;
+}
+.pokeSvg{
+    border: 2px;
+    border-radius: 10px;
+    background-image: url("../img/background.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    opacity: 30%;
+    z-index: -1;
+}
+.pokeImg{
+    opacity: 100%;
+    z-index: 1;
+}
