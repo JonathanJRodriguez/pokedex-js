@@ -9,15 +9,17 @@
 </head>
 <body>
     <h1>Pokedex LaunchX</h1>
-    <input type="text" placeholder="pikachu" id="pokeName" name="pokeName">
-    <br>
-    <br>
     <div class="pokeDiv">
-        <div class="pokeSvg"></div>
+        <div class="pokeSvg" id="backImg" name="backImg"></div>
         <img class="pokeImg" src="./assets/img/pokeball.png" alt="Pokemon" id="pokeImg" width="200px">
     </div>
-    <br>
-    <button onclick="fetchPokemon()">Cambiar pokemon!</button>
+    <input type="text" placeholder="Nombre de pokemon" id="pokeName" name="pokeName">
+    <div class="pokeDivBtn">
+    <button class="pokeBtn" onclick="fetchPokemon()"><span class="front">
+        Cambiar pokemon!
+      </span></button>
+    </div>
+    <div id="dvTable"></div>
 </body>
 <footer>
     <script src="./pokedexLaunchX.js"></script>
