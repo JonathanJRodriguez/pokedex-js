@@ -8,18 +8,39 @@
     <link rel="stylesheet" href="./assets/styles/styles.css">
 </head>
 <body>
-    <h1>Pokedex LaunchX</h1>
-    <div class="pokeDiv">
-        <div class="pokeSvg" id="backImg" name="backImg"></div>
-        <img class="pokeImg" src="./assets/img/pokeball.png" alt="Pokemon" id="pokeImg" width="200px">
+    <img class="title" src="./assets/img/title.png">
+    <div style="display: flex;">
+        <div class="cir circle1"></div>
+        <div class="cir circle2"></div>
+        <div class="cir circle3"></div>
+        <div class="cir circle4"></div>
     </div>
-    <input type="text" placeholder="Nombre de pokemon" id="pokeName" name="pokeName">
-    <div class="pokeDivBtn">
-    <button class="pokeBtn" onclick="fetchPokemon()"><span class="front">
-        Cambiar pokemon!
-      </span></button>
+    <div style="display: flex;">
+        <div>
+            <div class="pokeDiv">
+                <div class="pokeSvg" id="backImg" name="backImg"></div>
+                <img class="pokeImg" src="./assets/img/pokeball.png" alt="Pokemon" id="pokeImg" width="200px">
+            </div>
+            <input type="text" placeholder="Nombre de pokemon" id="pokeName" name="pokeName">
+            <div class="pokeDivBtn">
+                <button class="pokeBtn" onclick="fetchPokemon()"><span class="front">
+                    Cambiar pokemon!
+                </span></button>
+                <img src="./assets/img/dpad.png" width="40%">
+            </div>
+        </div>
+        <div>
+            <div class="pokeDivStats">
+                <div><p class="tipo">Tipo:  </p><p id="pokeType"></p></div>
+                <div id="dvTable"></div>
+            </div>
+            <br>
+            <div class="pokeDivStats">
+                <h3 style="color: white; margin:10px;">Movimientos:</h3>
+                <div id="dvMoves"></div>
+            </div>
+        </div>
     </div>
-    <div id="dvTable"></div>
 </body>
 <footer>
     <script src="./pokedexLaunchX.js"></script>
