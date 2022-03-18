@@ -265,27 +265,34 @@ th, td{
         background-color: brown;
         height: 100%;
         max-width: 100%;
+        min-width: 220px;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
     }
     .divDist{
         flex-direction: column;
-        margin-left: 10px;
+        margin-left: 0px;
+        align-items: center;
     }
     .pokeDivStats{
-        margin-left: 2px;
+        align-content: center;
         margin-top: 5px;
         margin-bottom: 10px;
         min-width: 210px;
         font-size: 8pt;
         min-height: 150px;
+        margin-left: 60px;
     }
     .pokeDivBtn img{
         width: 0;
     }  
     #pokeName{
-        margin-left: 10px;
+
+        align-self: center;
+        text-align: center;
     }
     .pokeBtn{
-        margin-left: 60px;
+
     }
     .pokeDiv{
         background-color: white;
@@ -293,13 +300,13 @@ th, td{
     }
     .topcircles{
         margin: 0;
+        height: 60px;
+        padding-top: 20px;
+        padding-left: 15px;
         /*background-color: red;*/
         background: radial-gradient(circle at 95% 55%, red 3%, brown 60%, red 100%);
         border-top-left-radius: 50px;
         border-top-right-radius: 50px;
-    }
-    .title{
-        width: 250px;
     }
     #dvTable table{
         border-collapse: collapse;
