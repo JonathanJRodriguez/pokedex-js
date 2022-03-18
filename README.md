@@ -6,7 +6,9 @@ Pokedex implementado con la API  pokeapi.co, resultado de la práctica del curso
 ## Preview
 
 Versión desktop
-![Page preview](/assets/img/preview.png)
+
+![Page preview](/assets/img/preview.PNG)
 
 Versión mobile
-![Page preview](/assets/img/previewmob.png)
+
+![Page preview](/assets/img/previewmob.PNG)
